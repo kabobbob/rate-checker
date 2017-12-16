@@ -1,0 +1,5 @@
+*.sw*
+.ruby-gemset
+.ruby-version
+aws.yml
+config.yml
