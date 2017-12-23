@@ -1,5 +1,6 @@
-*.sw*
+.gemrc
 .ruby-gemset
 .ruby-version
+*.sw*
 aws.yml
 config.yml
