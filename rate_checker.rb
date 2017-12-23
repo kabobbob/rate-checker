@@ -34,7 +34,7 @@ if res.is_a?(Net::HTTPSuccess)
 
   today     = Date.today
   sixty_out = today + 60
-  message   = "#{today}\rRate: #{rate} / Points: #{points} / APR: #{apr}\rUntil #{sixty_out}\r#{config['mortgage_number']}"
+  message   = "#{today}\rRate: #{rate} / Points: #{points} / APR: #{apr}\rUntil #{sixty_out}\r#{config['mortgage_number']}\r#{config['aid']}"
 
   # text message
   client = Aws::SNS::Client.new
